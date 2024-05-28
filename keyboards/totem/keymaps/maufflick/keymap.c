@@ -91,11 +91,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                  │   DEL   │   OPT   │ LYR_SHFT││   TAB   │   CMD   │  ESC    │  
                                  └─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┘*/ 
 
-   [_COLEMAK] = LAYOUT(
+   [_NUM] = LAYOUT(
  //╷         ╷         ╷         ╷         ╷         ╷         ╷╷         ╷         ╷         ╷         ╷         ╷         ╷
               KC_1,     KC_2,     KC_3,     KC_4,     KC_5,      KC_6,     KC_7,     KC_8,     KC_9,     KC_0,  
-              KC_UP,    KC_LEFT,  KC_RIGHT, KC_VOLD,  KC_VOLU,   KC_H,     SHT_N,    KC_MINS,  KC_EQL,   KC_QUOT,  
-    KC_Q,     KC_DOWN,  KC_MPRV,  KC_MNXT,  KC_MPLY,  KC_MUTE,   KC_K,     KC_M,     KC_LBRC,  KC_RBRC,  KC_BSLS,  KC_RSFT,
+              KC_UP,    KC_LEFT,  KC_RIGHT, KC_VOLD,  KC_VOLU,   _______,  _______,  KC_MINS,  KC_EQL,   KC_QUOT,  
+    KC_Q,     KC_DOWN,  KC_MPRV,  KC_MNXT,  KC_MPLY,  KC_MUTE,   _______,  _______,  KC_LBRC,  KC_RBRC,  KC_BSLS,  KC_RSFT,
                                   KC_DEL,   KC_ROPT,  LYR_SHFT,  KC_TAB,   KC_RCMD,  KC_ESC
  ),
 
